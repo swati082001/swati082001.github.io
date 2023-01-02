@@ -1,9 +1,9 @@
 .App {
-  text-align: center;
-  background-color: #000026;
+  /* text-align: center; */
+  background-color: #0f0f0f ;
   height: 1000px;
   color: white;
-  font-family:cursive;
+  font-family:  Helvetica, sans-serif;
   
   
 }

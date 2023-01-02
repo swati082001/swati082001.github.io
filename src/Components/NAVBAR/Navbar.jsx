@@ -1,27 +1,27 @@
 import React from 'react'
-import {Box, Flex,ListItem,Text, UnorderedList} from "@chakra-ui/react";
+import {Box, Button, Flex,ListItem,Text, UnorderedList} from "@chakra-ui/react";
 import Styles from "./navbar.module.css";
 
 const Navbar = () => {
     
   return (
     <div className={Styles.navbar}>
-        <Box width="100%" h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#00D6BC"  >
+        <Box width="100%" h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a"  >
             <Flex justifyContent="space-between">
-                <Box p={{sm:2,md:2,lg:2}} w={{sm:"40%",md:"30%",lg:"20%"}}>
+                <Box p={{sm:2,md:2,lg:5}} w={{sm:"40%",md:"30%",lg:"13%"}}>
                     <Flex justifyContent="space-around">
-                    <Text textStyle="Firsthead">Swati</Text> 
-                    <Text textStyle="Secondhead">Mohanty</Text> 
+                    <Text textStyle="Firsthead">SWATI</Text> 
+                    <Text textStyle="Secondhead">MOHANTY</Text> 
                     </Flex>
                 </Box>
-                <Box p={5} w={{sm:"80%",md:"70%",lg:"60%"}} h={{sm:"60%",md:"70%",lg:"80%"}}>
+                <Box  w={{sm:"70%",md:"60%",lg:"50%"}} h={{sm:"50%",md:"60%",lg:"70%"}}>
                     <UnorderedList listStyleType="none">
-                        <Flex justifyContent="space-around">
-                        <ListItem textStyle="Navbar" _hover={{textDecoration:"underline"}}>ABOUT</ListItem>
-                        <ListItem textStyle="Navbar" _hover={{textDecoration:"underline"}}>SKILLS</ListItem>
-                        <ListItem textStyle="Navbar" _hover={{textDecoration:"underline"}}>PROJECTS</ListItem>
-                        <ListItem textStyle="Navbar" _hover={{textDecoration:"underline"}}>CONTACT</ListItem>
-                        <ListItem textStyle="Navbar" >RESUME</ListItem>
+                        <Flex justifyContent="space-around" alignItems={"center"}>
+                        <ListItem textStyle="Navbar" p="21px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>ABOUT</ListItem>
+                        <ListItem textStyle="Navbar" p="21px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>SKILLS</ListItem>
+                        <ListItem textStyle="Navbar" p="21px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>PROJECTS</ListItem>
+                        <ListItem textStyle="Navbar" p="21px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>CONTACT</ListItem>
+                        <ListItem textStyle="Navbar" p="21px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>RESUME</ListItem>
                         </Flex>
                     </UnorderedList>
 
