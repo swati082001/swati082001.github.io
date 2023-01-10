@@ -1,0 +1,10 @@
+.About{
+
+    background-color: #1a1a1a ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .active{
+    border-bottom: "3px solid #b107ff";
+
+  }

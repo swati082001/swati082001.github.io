@@ -1,13 +1,13 @@
 import React from 'react';
-import Styles from "./About.module.css";
+import Styles from "./Home.module.css";
 import {Box, Flex,Image,Text,Circle} from "@chakra-ui/react";
 import logo from "./profile.png";
 import { TypeAnimation } from 'react-type-animation';
 
-const About = () => {
+const Home = () => {
   return (
-    <div className={Styles.About}>
-        <Box w="100%" mt="70px" p={7} h="600px">
+    <div className={Styles.About} id="home">
+        <Box w="100%" mt="70px" p={7} h="auto">
           <br/>
           <Flex justifyContent="space-evenly">
           <Box  w="50%" >
@@ -19,7 +19,8 @@ const About = () => {
               1000,
               'MERN Stack Web Developer.',
               1000,
-              
+              'A Tech Enthusiast.',
+              1000,
               
               ]}
               speed={50} // Custom Speed from 1-99 - Default Speed: 40
@@ -59,4 +60,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Home
