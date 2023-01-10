@@ -2,13 +2,13 @@ import React from 'react';
 import Styles from "./About.module.css";
 import {Box, Flex,Text} from "@chakra-ui/react";
 // import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
 
 const About = () => {
   return (
     <div className={Styles.About} id="about">
         <Box w="90%" margin={"auto"} h="auto" mt="60px" p="40px">
-        <Fade left cascade>
+        {/* <Fade left cascade> */}
             <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-around" alignItems="center">
                 <Box w={{sm:"80%",md:"80%",lg:"40%"}}>
                 <img height={{sm:"600",md:"500",lg:"400"}} width={{sm:"600",md:"500",lg:"400"}}src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" alt="" />   
@@ -24,7 +24,7 @@ const About = () => {
             
                 </Box>
             </Flex>
-            </Fade>
+            {/* </Fade> */}
         </Box>
     </div>
   )
