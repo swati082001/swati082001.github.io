@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fbcad052.css",
-    "main.js": "/static/js/main.192af65d.js",
+    "main.js": "/static/js/main.1126972f.js",
     "static/js/27.80ec1f0b.chunk.js": "/static/js/27.80ec1f0b.chunk.js",
     "static/media/reliance.png": "/static/media/reliance.145254b43007c90399d0.png",
     "static/media/Nordstrom.png": "/static/media/Nordstrom.5d722e8e319aefb4601e.png",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.fbcad052.css",
-    "static/js/main.192af65d.js"
+    "static/js/main.1126972f.js"
   ]
 }
