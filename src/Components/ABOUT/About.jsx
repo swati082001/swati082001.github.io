@@ -1,7 +1,7 @@
 import React from 'react';
 import Styles from "./About.module.css";
-import {Box, Flex, Heading, Image,Text} from "@chakra-ui/react";
-import Zoom from 'react-reveal/Zoom';
+import {Box, Flex,Text} from "@chakra-ui/react";
+// import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 
 const About = () => {

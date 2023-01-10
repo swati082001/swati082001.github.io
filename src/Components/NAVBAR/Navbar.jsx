@@ -1,7 +1,7 @@
 import React from 'react'
-import {Box, Button, Flex,ListItem,Text, UnorderedList} from "@chakra-ui/react";
+import {Box, Flex,ListItem,Text, UnorderedList} from "@chakra-ui/react";
 import Styles from "./navbar.module.css";
-import About from '../ABOUT/About';
+//import About from '../ABOUT/About';
 import {Link} from "react-scroll"
 
 
