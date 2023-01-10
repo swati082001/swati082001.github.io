@@ -22,21 +22,25 @@ export const textStyles={
        
     },
     AboutHead:{
-        fontSize:{sm:"25px",md:"35px",lg:"55px"},
+        fontSize:{sm:"30px",md:"35px",lg:"55px"},
         fontWeight:{sm:"500",md:"600",lg:"700"}, 
         color:"#b107ff" ,
-        textAlign:"initial"
+        textAlign:{sm:"center",md:"center",lg:"initial"}
     },
     AboutSubHead:{
         fontSize:{sm:"25px",md:"35px",lg:"40px"},
         fontWeight:{sm:"500",md:"600",lg:"700"}, 
-        textAlign:"initial"
+        textAlign:{sm:"center",md:"center",lg:"initial"}
     },
     AboutPara:{
-        fontSize:{sm:"14px",md:"16px",lg:"18px"},
+        fontSize:{sm:"14px",md:"17px",lg:"18px"},
         fontWeight:{sm:"400",md:"400",lg:"500"}, 
-        textAlign:"initial",
-        marginTop:{sm:"12px",md:"12px",lg:"10px"}
+        textAlign:{sm:"center",md:"center",lg:"initial"},
+        marginTop:{sm:"20px",md:"12px",lg:"10px"}
+    },
+    Typewriter:{
+        fontSize:{sm:"30px",md:"40px",lg:"40px"},
+        textAlign:{sm:"center",md:"center",lg:"initial"},
     }
 
 }

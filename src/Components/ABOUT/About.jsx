@@ -9,15 +9,18 @@ const About = () => {
     <div className={Styles.About} id="about">
         <Box w="90%" margin={"auto"} h="auto" mt="60px" p="40px">
         <Fade left cascade>
-            <Flex justifyContent="space-around" alignItems="center">
-                <Box w="40%">
-                <img height="400" width="400"  src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" alt="" />   
+            <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-around" alignItems="center">
+                <Box w={{sm:"80%",md:"80%",lg:"40%"}}>
+                <img height={{sm:"600",md:"500",lg:"400"}} width={{sm:"600",md:"500",lg:"400"}}src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" alt="" />   
             
                 </Box>
 
-                <Box w="50%">
+                <Box w={{sm:"80%",md:"80%",lg:"50%"}}>
                     <Text textStyle={"AboutHead"}>ABOUT ME</Text>
-                    <Text textStyle="AboutPara">A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using Javascript, React, Redux, and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.</Text>
+                    <Text textStyle="AboutPara">A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using Javascript, React, Redux, and Chakra UI. 1200+ hours of coding and hands-on experience in developing various Web-Apps and programs. Looking forward to working as an accountable and competent employee in an exciting tech company.
+
+ 
+</Text>
             
                 </Box>
             </Flex>

@@ -29,12 +29,12 @@ const Navbar = () => {
                             <ListItem textStyle="Navbar" p="12px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>ABOUT</ListItem>
                         </Link>
 
-                        <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} >
-                            <ListItem textStyle="Navbar" p="12px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>SKILLS</ListItem>
-                        </Link>
-
                         <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} >
                             <ListItem textStyle="Navbar" p="12px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>PROJECTS</ListItem>
+                        </Link>
+
+                        <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} >
+                            <ListItem textStyle="Navbar" p="12px" _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>SKILLS</ListItem>
                         </Link>
 
                         <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} >
