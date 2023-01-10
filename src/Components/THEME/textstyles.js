@@ -42,7 +42,4 @@ export const textStyles={
         fontSize:{sm:"30px",md:"40px",lg:"40px"},
         textAlign:{sm:"center",md:"center",lg:"initial"},
     }
-
-    
-
 }
