@@ -43,4 +43,6 @@ export const textStyles={
         textAlign:{sm:"center",md:"center",lg:"initial"},
     }
 
+    
+
 }
