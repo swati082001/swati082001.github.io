@@ -3,7 +3,8 @@ import React from 'react'
 import Styles from "./projects.module.css";
 import logo from "./Nordstrom.png";
 import image from "./reliance.png";
-import {Link} from "@chakra-ui/react"
+import {Link} from "@chakra-ui/react";
+import { Fade } from "react-awesome-reveal";
 
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
 
             <Text textStyle="AboutHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Build By Me !</Text>
             <Text>Each Project is Unique. Here are some of my works.</Text>
-
+           <Fade direction='left' cascade>
             <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
                 <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
 
@@ -25,14 +26,16 @@ const Projects = () => {
 
                     <Text textStyle="AboutPara">TECH STACKS- HTML | CSS | Javascript </Text>
                     <Flex justifyContent="space-around" mt="30px">
-                    <Link href='https://gorgeous-tapioca-a97f5c.netlify.app/#'><Button bgColor="#2a2b2b">Live Demo</Button></Link>
-                    <Link href='https://github.com/swati082001/agreeable-farm-465'><Button bgColor="#2a2b2b">Source Code</Button></Link>
+                    <Link href='https://gorgeous-tapioca-a97f5c.netlify.app/#' target="_blank"><Button bgColor="#2a2b2b">Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/agreeable-farm-465' target="_blank"><Button bgColor="#2a2b2b">Source Code</Button></Link>
                     </Flex>
                  </Box>
 
                 </Flex>
             </Box>
+            </Fade>
 
+            <Fade direction="right" cascade>
             <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
                 <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
 
@@ -44,13 +47,14 @@ const Projects = () => {
 
                     <Text textStyle="AboutPara">TECH STACKS-  CSS | Javascript | React | Chakra-UI </Text>
                     <Flex justifyContent="space-around" mt="30px">
-                    <Link href='https://super-chebakia-102170.netlify.app/'><Button bgColor="#2a2b2b">Live Demo</Button></Link>
-                    <Link href='https://github.com/swati082001/famous-jelly-9084'><Button bgColor="#2a2b2b">Source Code</Button></Link>
+                    <Link href='https://super-chebakia-102170.netlify.app/' target="_blank"><Button bgColor="#2a2b2b">Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/famous-jelly-9084' target="_blank"><Button bgColor="#2a2b2b">Source Code</Button></Link>
                     </Flex>
                  </Box>
 
                 </Flex>
             </Box>
+            </Fade>
 
             
 
