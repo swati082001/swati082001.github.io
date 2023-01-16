@@ -1,4 +1,4 @@
-import { Box ,Flex,Grid,Image,Text} from '@chakra-ui/react'
+import { Box ,Grid,Image,Text} from '@chakra-ui/react'
 import React from 'react'
 import { Fade } from 'react-awesome-reveal'
 import Styles from "./Skills.module.css"
