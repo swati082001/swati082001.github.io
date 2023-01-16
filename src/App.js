@@ -5,6 +5,8 @@ import Navbar from './Components/NAVBAR/Navbar';
 import About from './Components/ABOUT/About';
 import Projects from './Components/PROJECTS/projects';
 import Gitstats from './Components/STATS/Gitstats';
+import Skills from './Components/SKILLS/Skills';
+import Contact from './Components/CONTACT/Contact';
 
 
 
@@ -17,7 +19,8 @@ function App() {
      <About/>
      <Projects/>
      <Gitstats/>
-      
+     <Skills/>
+      <Contact/>
     </div>
   );
 }

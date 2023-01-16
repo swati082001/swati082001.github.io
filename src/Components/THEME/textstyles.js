@@ -1,13 +1,11 @@
 
-
 export const textStyles={
 
     Firsthead:{
         fontSize:{sm:"14px",md:"18px",lg:"22px"},
         fontWeight:{sm:"400",md:"500",lg:"500"},
         fontFamily:"cambria",
-        color:"#b107ff"
-        
+        color:"#b107ff" 
     },
     Secondhead:{
         fontSize:{sm:"14px",md:"18px",lg:"22px"},
@@ -41,5 +39,10 @@ export const textStyles={
     Typewriter:{
         fontSize:{sm:"30px",md:"40px",lg:"40px"},
         textAlign:{sm:"center",md:"center",lg:"initial"},
-    }
+    },
+    Skills:{
+        fontSize:{sm:"20px",md:"25px",lg:"30px"},
+        fontWeight:{sm:"500",md:"500",lg:"600"}, 
+        textAlign:{sm:"center",md:"center",lg:"center"}
+    },
 }

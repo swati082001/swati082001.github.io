@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.16",
     "@chakra-ui/react": "^2.4.5",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -15,6 +16,7 @@
     "react-awesome-reveal": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.4.0",
+    "react-icons": "^4.7.1",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",

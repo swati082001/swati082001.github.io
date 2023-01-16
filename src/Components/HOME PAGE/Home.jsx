@@ -1,6 +1,6 @@
 import React from 'react';
 import Styles from "./Home.module.css";
-import {Box, Flex,Image,Text} from "@chakra-ui/react";
+import {Box, Button, Flex,Image,Text} from "@chakra-ui/react";
 import logo from "./profile.png";
 import { TypeAnimation } from 'react-type-animation';
 
@@ -36,6 +36,8 @@ const Home = () => {
             <a href='https://www.linkedin.com/in/swati-mohanty08/'><Image w="50px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/linkedin-icon-256.png' alt='linked in logo' /></a>
             
             <a href='https://github.com/swati082001'><Image w="50px" ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
+
+           <a href='https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing' target="_blank" rel="noreferrer"> <Button ml="30px" size="lg" borderRadius={10}  bgColor="#0f0f0f" color={"#b107ff"} >RESUME</Button></a>
 
             </Flex>
 
