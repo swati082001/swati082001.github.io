@@ -1,9 +1,9 @@
 import React from 'react'
-import {Box, Flex,ListItem,Text, UnorderedList,useDisclosure,Drawer, DrawerBody, DrawerFooter, DrawerHeader,
- DrawerOverlay, DrawerContent,Button,Image, DrawerCloseButton,IconButton, VStack} from "@chakra-ui/react";
+import {Box, Flex,ListItem,Text, UnorderedList,useDisclosure,Drawer, DrawerBody, DrawerFooter,
+ DrawerOverlay, DrawerContent,Button, DrawerCloseButton,IconButton, VStack} from "@chakra-ui/react";
 import Styles from "./navbar.module.css";
 
-import logo from "./new.png"
+// import logo from "./new.png"
 import {Link} from "react-scroll"
 import {ChevronDownIcon,CloseIcon,HamburgerIcon} from '@chakra-ui/icons';
 import Swati_Mohanty_Resume from "./Swati_Mohanty_Resume.pdf"
