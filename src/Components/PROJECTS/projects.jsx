@@ -3,6 +3,7 @@ import React from 'react'
 import Styles from "./projects.module.css";
 import logo from "./Nordstrom.png";
 import image from "./reliance.png";
+import logo2 from "./TRADEMART.png"
 import {Link} from "@chakra-ui/react";
 import { Fade } from "react-awesome-reveal";
 
@@ -26,8 +27,8 @@ const Projects = () => {
 
                     <Text textStyle="AboutPara">TECH STACKS- HTML | CSS | Javascript </Text>
                     <Flex justifyContent="space-around" mt="30px">
-                    <Link href='https://gorgeous-tapioca-a97f5c.netlify.app/#' target="_blank"><Button bgColor="#2a2b2b">Live Demo</Button></Link>
-                    <Link href='https://github.com/swati082001/agreeable-farm-465' target="_blank"><Button bgColor="#2a2b2b">Source Code</Button></Link>
+                    <Link href='https://gorgeous-tapioca-a97f5c.netlify.app/#' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/agreeable-farm-465' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
                     </Flex>
                  </Box>
 
@@ -47,8 +48,8 @@ const Projects = () => {
 
                     <Text textStyle="AboutPara">TECH STACKS-  CSS | Javascript | React | Chakra-UI </Text>
                     <Flex justifyContent="space-around" mt="30px">
-                    <Link href='https://super-chebakia-102170.netlify.app/' target="_blank"><Button bgColor="#2a2b2b">Live Demo</Button></Link>
-                    <Link href='https://github.com/swati082001/famous-jelly-9084' target="_blank"><Button bgColor="#2a2b2b">Source Code</Button></Link>
+                    <Link href='https://super-chebakia-102170.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/famous-jelly-9084' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
                     </Flex>
                  </Box>
 
@@ -56,7 +57,28 @@ const Projects = () => {
             </Box>
             </Fade>
 
-            
+            <Fade direction='left' cascade>
+            <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
+
+                 <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={logo2} alt="" />
+                 <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
+                    <Text textStyle="AboutSubHead" mt={{sm:"10px",md:'10px',lg:'10px'}}>Trademart</Text>
+                    <Text textStyle="AboutPara">Trademart is an e-com website that provides B2B sales services.It is a clone of the famous retail website Indiamart. </Text>
+                    <Text textStyle="AboutPara">A Collaborative Project built by a team of 4 members executed in 5 days.</Text>
+
+                    <Text textStyle="AboutPara">TECH STACKS- React | Redux | Redux-Thunk | Chakra-UI | Firebase | </Text>
+
+                    <Text textStyle="AboutPara">Area Of Responsibility- Admin Section including stats, admin registration, user dashboard, product dashboard. </Text>
+                    <Flex justifyContent="space-around" mt="30px">
+                    <Link href='https://trademart.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"} >Live Demo</Button></Link>
+                    <Link href='https://github.com/jithstephen13/TradeMart' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
+                    </Flex>
+                 </Box>
+
+                </Flex>
+            </Box>
+            </Fade>
 
         </Box>
     </div>

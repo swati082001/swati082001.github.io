@@ -50,7 +50,7 @@ const Navbar = () => {
                             <ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>CONTACTS</ListItem>
                         </Link>
 
-                        <a href={Swati_Mohanty_Resume} download="Swati_Mohanty_Resume"><ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}><ChevronDownIcon/>RESUME</ListItem></a>
+                        <a href={Swati_Mohanty_Resume} target="_blank" download="Swati_Mohanty_Resume" rel="noreferrer"><ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}><ChevronDownIcon/>RESUME</ListItem></a>
                         
                         </Flex>
                     </UnorderedList>
