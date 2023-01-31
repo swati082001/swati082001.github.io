@@ -16,64 +16,64 @@ const Skills = () => {
         <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px" textAlign="center" >
 
           <Box p={7}>
-          <Grid  templateColumns={{sm:"repeat(2,1fr)",md:"repeat(3,1fr)",lg:"repeat(4,1fr)"}}>
+          <Grid  templateColumns={{sm:"repeat(2,1fr)",md:"repeat(2,1fr)",lg:"repeat(4,1fr)"}} gap={{sm:"15px",md:"15px",lg:"20px"}}>
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg' alt='' />
+          <Image w={{sm:"70px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg' alt='' />
           <Text textStyle="Skills">HTML 5</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/css3.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/css3.svg' alt='' />
           <Text textStyle="Skills">CSS 3</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg' alt='' />
           <Text textStyle="Skills">JAVASCRIPT</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg' alt='' />
           <Text textStyle="Skills">REACT</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/redux.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/redux.svg' alt='' />
           <Text textStyle="Skills">REDUX</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/nodejs.svg' alt='' />
           <Text textStyle="Skills">NODE JS</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg' alt='' />
           <Text textStyle="Skills">MONGO DB</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://gayathry-portfolio.vercel.app/ts.png' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://gayathry-portfolio.vercel.app/ts.png' alt='' />
           <Text textStyle="Skills">TYPESCRIPT</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/git.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/git.svg' alt='' />
           <Text textStyle="Skills">GIT</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px"  src='https://img.icons8.com/color/70/null/chakra-ui.png' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px"  src='https://img.icons8.com/color/70/null/chakra-ui.png' alt='' />
           <Text textStyle="Skills">CHAKRA UI</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px"  src='https://chiranjeev-thapliyal.vercel.app/svg/material-ui.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px"  src='https://chiranjeev-thapliyal.vercel.app/svg/material-ui.svg' alt='' />
           <Text textStyle="Skills">MATERIAL UI</Text>
           </Box>
 
           <Box >
-          <Image w="100px" ml={{sm:"30px",md:"40px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/mysql-logo.svg' alt='' />
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}} ml={{sm:"15px",md:"50px",lg:"70px"}} mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/mysql-logo.svg' alt='' />
           <Text textStyle="Skills">MYSQL</Text>
           </Box>
 

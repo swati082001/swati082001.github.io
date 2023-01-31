@@ -14,7 +14,7 @@ export const textStyles={
         fontFamily:"cambria"
     },
     Navbar:{
-        fontSize:{sm:"10px",md:"16px",lg:"17px"},
+        fontSize:{sm:"10px",md:"14px",lg:"17px"},
         fontWeight:{sm:"400",md:"500",lg:"600"}, 
         color:"#fff9" 
        
@@ -41,7 +41,7 @@ export const textStyles={
         textAlign:{sm:"center",md:"center",lg:"initial"},
     },
     Skills:{
-        fontSize:{sm:"20px",md:"25px",lg:"30px"},
+        fontSize:{sm:"15px",md:"25px",lg:"30px"},
         fontWeight:{sm:"500",md:"500",lg:"600"}, 
         textAlign:{sm:"center",md:"center",lg:"center"}
     },
