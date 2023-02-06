@@ -7,15 +7,15 @@ const Contact = () => {
     <div className={Styles.Contact} id="contact">
         <Box w="80%" margin={"auto"} p={7} h={{sm:"auto",md:"auto",lg:"auto"}} textAlign={{sm:"center",md:"center",lg:"initial"}}>
             <Text textStyle="AboutHead" mt={{base:"40px",sm:"40px",md:"40px",lg:"30px"}}>Contact Me</Text>
-            <Text textAlign={{base:"center",sm:"center"}}>Intrested To Work Together?</Text>
+            <Text textAlign={{base:"center",sm:"initial",md:"initial",lg:"initial"}}>Intrested To Work Together?</Text>
 
            
             <Flex>
 
             <Box w="80%" margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px" >
             <Text textStyle="AboutSubHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Contact Me</Text>
-             <Text textAlign={{base:"center",sm:"center"}}>Contact Number - +91 8018531080</Text>
-             <Text textAlign={{base:"center",sm:"center"}}>Email Id- swatisucharitamohanty1@gmail.com</Text>
+             <Text textAlign={{base:"center",sm:"initial",md:"initial",lg:"initial"}}>Contact Number - +91 8018531080</Text>
+             <Text textAlign={{base:"center",sm:"initial",md:"initial",lg:"initial"}}>Email Id- swatisucharitamohanty1@gmail.com</Text>
 
              <Flex mt={6} justifyContent={{base:"space-around",sm:"space-around",md:"space-around",lg:"initial"}}>
 

@@ -1,5 +1,5 @@
 .About{
-    width:150%;
+    width:100%;
     background-color: #1a1a1a ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
@@ -7,4 +7,19 @@
   .active{
     border-bottom: "3px solid #b107ff";
 
+  }
+
+  /* medium */
+  @media all and (min-width:620px) and (max-width:1024px){
+    .About{
+      width: 150%;
+    }
+  }
+
+  /* small */
+
+  @media all and (min-width:320px) and (max-width:620px){
+    .About{
+      width: 150%;
+    }
   }

@@ -9,7 +9,7 @@ const Skills = () => {
         <Box w="80%" margin={"auto"} p={7} h={{sm:"auto",md:"auto",lg:"auto"}} textAlign={{sm:"center",md:"center",lg:"initial"}}>
 
         <Text textStyle="AboutHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Skills</Text>
-        <Text textAlign={{base:"center"}}>Let's showcase some skills.</Text>
+        <Text textAlign={{base:"center",sm:"initial",md:"initial",lg:"initial"}}>Let's showcase some skills.</Text>
 
         <Fade cascade direction='left'>
 

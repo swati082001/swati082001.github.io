@@ -18,9 +18,9 @@ const Gitstats = () => {
 
             <Box w={{base:"100%",sm:"80%",md:"80%",lg:"80%"}} margin={"auto"} p={5} mt={{base:"40px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
             <Text textStyle="AboutSubHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Git Stats</Text>
-            <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} gap={{base:"10px",sm:"10px"}} justifyContent="space-around">
-            <Image src='https://github-readme-stats.vercel.app/api?username=swati082001&show_icons=true&theme=radical' alt='' />
-            <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=swati082001&langs_count=8" alt=''/>
+            <Flex direction={{base:"column",sm:"column",md:"column",lg:"column"}} gap={{base:"10px",sm:"10px",md:"10px",lg:"15px"}} justifyContent="center" alignItems={"center"}>
+            <Image src='https://github-readme-stats.vercel.app/api?username=swati082001&show_icons=true&theme=radical' w={"60%"} alt='' />
+            <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=swati082001&langs_count=8" w={"60%"} alt=''/>
             </Flex>
             </Box>
 
