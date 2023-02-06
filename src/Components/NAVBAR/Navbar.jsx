@@ -15,7 +15,7 @@ const Navbar = () => {
     
   return (
     <div className={Styles.navbar}>
-        <Box width="100%" h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a" p={3} >
+        <Box width={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a" p={3} >
             <Flex justifyContent="space-between">
                 {/* logo */}
                 <Box p={{sm:1,md:1,lg:2}} w={{sm:"25%",md:"25%",lg:"13%"}}>
@@ -91,7 +91,7 @@ const Navbar = () => {
                     <Button bgColor={"#1a1a1a"} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}} w={"100%"}>CONTACTS</Button>
                     </Link>
  
-                    <a href={Swati_Mohanty_Resume} download="Swati_Mohanty_Resume">
+                    <a href={Swati_Mohanty_Resume} download="Swati_Mohanty_Resume" >
                     <Button bgColor={"#1a1a1a"} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}} w={"100%"}>RESUME</Button>
                     </a>
 

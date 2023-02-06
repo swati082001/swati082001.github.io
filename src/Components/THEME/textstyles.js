@@ -14,26 +14,26 @@ export const textStyles={
         fontFamily:"cambria"
     },
     Navbar:{
-        fontSize:{sm:"10px",md:"14px",lg:"17px"},
+        fontSize:{sm:"10px",md:"13px",lg:"16px"},
         fontWeight:{sm:"400",md:"500",lg:"600"}, 
         color:"#fff9" 
        
     },
     AboutHead:{
-        fontSize:{sm:"30px",md:"35px",lg:"55px"},
-        fontWeight:{sm:"500",md:"600",lg:"700"}, 
+        fontSize:{base:"25px",sm:"30px",md:"35px",lg:"55px"},
+        fontWeight:{base:"500",sm:"500",md:"600",lg:"700"}, 
         color:"#b107ff" ,
-        textAlign:{sm:"center",md:"center",lg:"initial"}
+        textAlign:{base:"center",sm:"center",md:"center",lg:"initial"}
     },
     AboutSubHead:{
-        fontSize:{sm:"25px",md:"35px",lg:"40px"},
-        fontWeight:{sm:"500",md:"600",lg:"700"}, 
-        textAlign:{sm:"center",md:"center",lg:"initial"}
+        fontSize:{base:"25px",sm:"25px",md:"35px",lg:"40px"},
+        fontWeight:{base:"500",sm:"500",md:"600",lg:"700"}, 
+        textAlign:{base:"center",sm:"center",md:"center",lg:"initial"}
     },
     AboutPara:{
-        fontSize:{sm:"14px",md:"17px",lg:"18px"},
-        fontWeight:{sm:"400",md:"400",lg:"500"}, 
-        textAlign:{sm:"center",md:"center",lg:"initial"},
+        fontSize:{base:"13px",sm:"14px",md:"17px",lg:"18px"},
+        fontWeight:{base:"400",sm:"400",md:"400",lg:"500"}, 
+        textAlign:{base:"center",sm:"center",md:"center",lg:"initial"},
         marginTop:{sm:"20px",md:"12px",lg:"10px"}
     },
     Typewriter:{

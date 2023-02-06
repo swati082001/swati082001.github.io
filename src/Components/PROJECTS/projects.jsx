@@ -11,15 +11,17 @@ import { Fade } from "react-awesome-reveal";
 const Projects = () => {
   return (
     <div className={Styles.Projects} id="projects">
-        <Box w="80%" margin={"auto"} p={7} h={{sm:"auto",md:"auto",lg:"auto"}} textAlign={{sm:"center",md:"center",lg:"initial"}}>
+        <Box w="80%" margin={"auto"} p={7} h={{base:"auto",sm:"auto",md:"auto",lg:"auto"}} textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}}>
 
-            <Text textStyle="AboutHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Build By Me !</Text>
+            <Text textStyle="AboutHead" mt={{base:"40px",sm:"40px",md:"40px",lg:"30px"}}>Build By Me !</Text>
             <Text>Each Project is Unique. Here are some of my works.</Text>
-           <Fade direction='left' cascade>
-            <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
-                <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
 
-                 <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={logo} alt="" />
+           {/* NORDSTORM */}
+           <Fade direction='left' cascade>
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
+
+                 <Image w={{base:"100%",sm:"100%",md:"100%",lg:"50%"}} src={logo} alt="" />
                  <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
                     <Text textStyle="AboutSubHead" mt={{sm:"10px",md:'10px',lg:'10px'}}>Nordstorm Clone</Text>
                     <Text textStyle="AboutPara">Nordstrom is an American luxury department store chain that operates a website focusing on the marketing of clothing, accessories, shoes in a variety of price range. </Text>
@@ -35,10 +37,11 @@ const Projects = () => {
                 </Flex>
             </Box>
             </Fade>
-
+            
+            {/* DIGIPLUS */}
             <Fade direction="right" cascade>
-            <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
-                <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
 
                  <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={image} alt="" />
                  <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
@@ -57,9 +60,10 @@ const Projects = () => {
             </Box>
             </Fade>
 
+            {/* TRADEMART */}
             <Fade direction='left' cascade>
-            <Box w="90%" margin={"auto"} p={5} mt={{sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
-                <Flex direction={{sm:"column",md:"column",lg:"row"}} justifyContent="space-between">
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
 
                  <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={logo2} alt="" />
                  <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
