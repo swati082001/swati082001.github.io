@@ -18,15 +18,16 @@ const Navbar = () => {
         <Box width={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a" p={3} >
             <Flex justifyContent="space-between">
                 {/* logo */}
-                <Box p={{sm:1,md:1,lg:2}} w={{sm:"25%",md:"25%",lg:"13%"}}>
+                <Box p={{base:1,sm:1,md:1,lg:2}}  ml={{base:1,sm:0,md:0,lg:3}} w={{base:"25%",sm:"20%",md:"12%",lg:"13%"}}>
                     <Flex justifyContent="space-around">
                     <Text textStyle="Firsthead">SWATI</Text> 
                     <Text textStyle="Secondhead">MOHANTY</Text> 
                     </Flex>
+                    
                 </Box>
              
                {/* navbar menu */}
-                <Box   display={{ base: "none", md: "flex",lg:"flex" }} justifyContent={{base:"none",sm:"none",md:"space-around",lg:"space-between"}} ml={{lg:"40%",sm:"none",md:"5%"}} h={{sm:"50%",md:"60%",lg:"70%"}}>
+                <Box   display={{ base: "none", md: "flex",lg:"flex" }} justifyContent={{base:"none",sm:"none",md:"space-between",lg:"space-around"}} ml={{lg:"32%",sm:"none",md:"47%"}} h={{sm:"50%",md:"57%",lg:"70%"}}>
                     <UnorderedList listStyleType="none">
                         <Flex justifyContent="space-around" alignItems={"center"}>
 
@@ -61,7 +62,7 @@ const Navbar = () => {
                 {/* hamburger for small screen */}
                 <IconButton size={"md"} icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={"Navbar"} display={{ md: "none" }}
               backgroundColor="#1a1a1a" color="white" fontSize={{ base: "20px", sm: "30px" }} onClick={isOpen ? onClose : onOpen}
-              mt="-4"/>
+              mt="-3"/>
                 <Drawer isOpen={isOpen} placement='right' onClose={onClose} finalFocusRef={btnRef}>
                     <DrawerOverlay />
                         <DrawerContent bgColor={"#1a1a1a"}>

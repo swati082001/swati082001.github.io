@@ -7,7 +7,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
   return (
     <div className={Styles.About} id="home">
-        <Box w={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} mt={{base:"20px",sm:"30px",md:"50px",lg:"70px"}} p={7} h={{sm:"850px",md:"850px",lg:"650px"}}>
+        <Box w={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} mt={{base:"20px",sm:"30px",md:"50px",lg:"70px"}} p={7} h={{sm:"850px",md:"900px",lg:"650px"}}>
           <br/>
           <Flex direction={{base:"column-reverse",sm:"column-reverse",md:"column-reverse",lg:"row"}} justifyContent={{lg:"space-evenly",md:"center",sm:"center",base:"center"}}>
           <Box w={{base:"100%",sm:"95%",md:"95%",lg:"50%"}} textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}} margin="auto" mt={"60px"} >
@@ -36,7 +36,7 @@ const Home = () => {
             
             <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
 
-           <a href='https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing' target="_blank" rel="noreferrer"> <Button ml={{base:"40px",sm:"30px",md:"30px",lg:"30px"}} w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} mt={{base:"-1"}} size="lg" borderRadius={10}  bgColor="#0f0f0f" color={"#b107ff"} >RESUME</Button></a>
+           <a href='https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing' target="_blank" rel="noreferrer"> <Button ml={{base:"40px",sm:"30px",md:"30px",lg:"30px"}} w={{base:"70px",sm:"70px",md:"85px",lg:"120px"}} mt={{base:"-1"}} size="lg" borderRadius={10}  bgColor="#0f0f0f" color={"#b107ff"} >RESUME</Button></a>
 
             </Flex>
 

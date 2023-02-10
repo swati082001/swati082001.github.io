@@ -2,25 +2,25 @@
 export const textStyles={
 
     Firsthead:{
-        fontSize:{sm:"14px",md:"18px",lg:"22px"},
-        fontWeight:{sm:"400",md:"500",lg:"500"},
+        fontSize:{base:"12px",sm:"14px",md:"18px",lg:"22px"},
+        fontWeight:{base:"400",sm:"400",md:"500",lg:"500"},
         fontFamily:"cambria",
         color:"#b107ff" 
     },
     Secondhead:{
-        fontSize:{sm:"14px",md:"18px",lg:"22px"},
-        fontWeight:{sm:"400",md:"500",lg:"500"},  
+        fontSize:{base:"12px",sm:"14px",md:"18px",lg:"22px"},
+        fontWeight:{base:"400",sm:"400",md:"500",lg:"500"},  
         marginLeft:{sm:"2px",md:"4px",lg:"8px"},
         fontFamily:"cambria"
     },
     Navbar:{
-        fontSize:{sm:"10px",md:"13px",lg:"16px"},
-        fontWeight:{sm:"400",md:"500",lg:"600"}, 
+        fontSize:{sm:"10px",md:"13px",lg:"14px"},
+        fontWeight:{sm:"400",md:"500",lg:"500"}, 
         color:"#fff9" 
        
     },
     AboutHead:{
-        fontSize:{base:"25px",sm:"30px",md:"35px",lg:"55px"},
+        fontSize:{base:"25px",sm:"30px",md:"35px",lg:"42px"},
         fontWeight:{base:"500",sm:"500",md:"600",lg:"700"}, 
         color:"#b107ff" ,
         textAlign:{base:"center",sm:"center",md:"center",lg:"initial"}
@@ -31,7 +31,7 @@ export const textStyles={
         textAlign:{base:"center",sm:"center",md:"center",lg:"initial"}
     },
     AboutPara:{
-        fontSize:{base:"13px",sm:"14px",md:"17px",lg:"18px"},
+        fontSize:{base:"13px",sm:"14px",md:"17px",lg:"17px"},
         fontWeight:{base:"400",sm:"400",md:"400",lg:"500"}, 
         textAlign:{base:"center",sm:"center",md:"center",lg:"initial"},
         marginTop:{sm:"20px",md:"12px",lg:"10px"}

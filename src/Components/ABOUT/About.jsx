@@ -6,11 +6,11 @@ import { Fade } from "react-awesome-reveal";
 const About = () => {
   return (
     <div className={Styles.About} id="about">
-        <Box w={{base:"100%",sm:"50%",md:"65%",lg:"80%"}} margin={"auto"} h="auto" mt={{base:"-1px",sm:"0px",md:"-1px",lg:"0px"}} p="40px">
+        <Box w={{base:"100%",sm:"50%",md:"80%",lg:"90%"}} margin={"auto"} h="auto" mt={{base:"-1px",sm:"0px",md:"-1px",lg:"0px"}} p="40px">
         <Fade direction='left' cascade>
             <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-around" alignItems="center">
-                <Box w={{base:"85%",sm:"80%",md:"80%",lg:"80%"}}>
-                <img height={{base:"400",sm:"600",md:"500",lg:"400"}} width={{sm:"600",md:"500",lg:"400"}}src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" alt="" />   
+                <Box w={{base:"85%",sm:"80%",md:"75%",lg:"75%"}} ml={{base:0,sm:0,md:"250px",lg:0}}>
+                <img height={{base:"400",sm:"600",md:"500",lg:"400"}}  width={{sm:"600",md:"500",lg:"400"}}src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/601014116770475.6068beff4640a.gif" alt="" />   
             
                 </Box>
 

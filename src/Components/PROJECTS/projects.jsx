@@ -28,7 +28,7 @@ const Projects = () => {
                     <Text textStyle="AboutPara">An Individual Project executed in 5 days.</Text>
 
                     <Text textStyle="AboutPara">TECH STACKS- HTML | CSS | Javascript </Text>
-                    <Flex justifyContent="space-around" mt="30px">
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
                     <Link href='https://gorgeous-tapioca-a97f5c.netlify.app/#' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Live Demo</Button></Link>
                     <Link href='https://github.com/swati082001/agreeable-farm-465' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
                     </Flex>
@@ -50,7 +50,7 @@ const Projects = () => {
                     <Text textStyle="AboutPara">An Individual Project executed in 5 days.</Text>
 
                     <Text textStyle="AboutPara">TECH STACKS-  CSS | Javascript | React | Chakra-UI </Text>
-                    <Flex justifyContent="space-around" mt="30px">
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
                     <Link href='https://super-chebakia-102170.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Live Demo</Button></Link>
                     <Link href='https://github.com/swati082001/famous-jelly-9084' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
                     </Flex>
@@ -74,7 +74,7 @@ const Projects = () => {
                     <Text textStyle="AboutPara">TECH STACKS- React | Redux | Redux-Thunk | Chakra-UI | Firebase | </Text>
 
                     <Text textStyle="AboutPara">Area Of Responsibility- Admin Section including stats, admin registration, user dashboard, product dashboard. </Text>
-                    <Flex justifyContent="space-around" mt="30px">
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
                     <Link href='https://trademart.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"} >Live Demo</Button></Link>
                     <Link href='https://github.com/jithstephen13/TradeMart' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
                     </Flex>
