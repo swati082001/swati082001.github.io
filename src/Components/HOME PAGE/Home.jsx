@@ -5,6 +5,8 @@ import logo from "./profile.png";
 import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
+
+  
   return (
     <div className={Styles.About} id="home">
         <Box w={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} mt={{base:"20px",sm:"30px",md:"50px",lg:"70px"}} p={7} h={{sm:"850px",md:"900px",lg:"650px"}}>
@@ -36,7 +38,12 @@ const Home = () => {
             
             <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
 
-           <a href='https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing' target="_blank" rel="noreferrer"> <Button ml={{base:"40px",sm:"30px",md:"30px",lg:"30px"}} w={{base:"70px",sm:"70px",md:"85px",lg:"120px"}} mt={{base:"-1"}} size="lg" borderRadius={10}  bgColor="#0f0f0f" color={"#b107ff"} >RESUME</Button></a>
+           <a href='https://drive.google.com/u/0/uc?id=1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL&export=download'  onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing",
+              "_blank"
+            );
+          }}> <Button ml={{base:"40px",sm:"30px",md:"30px",lg:"30px"}} w={{base:"70px",sm:"70px",md:"85px",lg:"120px"}} mt={{base:"-1"}} size="lg" borderRadius={10}  bgColor="#0f0f0f" color={"#b107ff"} >RESUME</Button></a>
 
             </Flex>
 

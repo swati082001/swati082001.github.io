@@ -51,7 +51,12 @@ const Navbar = () => {
                             <ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>CONTACTS</ListItem>
                         </Link>
 
-                        <a href={Swati_Mohanty_Resume} target="_blank" download="Swati_Mohanty_Resume" rel="noreferrer"><ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}><ChevronDownIcon/>RESUME</ListItem></a>
+                        <a href='https://drive.google.com/u/0/uc?id=1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL&export=download'  onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing",
+              "_blank"
+            );
+          }}><ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}><ChevronDownIcon/>RESUME</ListItem></a>
                         
                         </Flex>
                     </UnorderedList>
