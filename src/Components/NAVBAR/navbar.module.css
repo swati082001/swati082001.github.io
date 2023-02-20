@@ -7,3 +7,31 @@
     z-index: 1;
     background-color: black;
 }
+
+
+  /* medium */
+  @media all and (min-width:620px) and (max-width:1024px){
+    .navbar{
+        position: -webkit-sticky;
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       z-index: 1;
+      background-color: black;
+    }
+  }
+
+  /* small */
+
+  @media all and (min-width:320px) and (max-width:620px){
+    .navbar{
+        position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    }
+  }

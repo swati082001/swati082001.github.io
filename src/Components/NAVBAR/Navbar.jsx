@@ -15,10 +15,10 @@ const Navbar = () => {
     
   return (
     <div className={Styles.navbar}>
-        <Box width={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a" p={3} >
-            <Flex justifyContent="space-between">
+        <Box width={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} h={{sm:"40px",md:"50px",lg:"70px"}} bgColor="#1a1a1a" p={{base:3,sm:3,md:2,lg:3}} >
+            <Flex justifyContent={{base:"space-between",sm:"space-between",md:"space-evenly",lg:"space-around"}} >
                 {/* logo */}
-                <Box p={{base:1,sm:1,md:1,lg:2}}  ml={{base:1,sm:0,md:0,lg:3}} w={{base:"25%",sm:"20%",md:"12%",lg:"13%"}}>
+                <Box p={{base:1,sm:1,md:1,lg:2}}  ml={{base:1,sm:0,md:"30px",lg:3}} w={{base:"25%",sm:"20%",md:"15%",lg:"13%"}}>
                     <Flex justifyContent="space-around">
                     <Text textStyle="Firsthead">SWATI</Text> 
                     <Text textStyle="Secondhead">MOHANTY</Text> 
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </Box>
              
                {/* navbar menu */}
-                <Box   display={{ base: "none", md: "flex",lg:"flex" }} justifyContent={{base:"none",sm:"none",md:"space-between",lg:"space-around"}} ml={{lg:"32%",sm:"none",md:"47%"}} h={{sm:"50%",md:"57%",lg:"70%"}}>
+                <Box   display={{ base: "none", md: "flex",lg:"flex" }} justifyContent={{base:"none",sm:"none",md:"space-evenly",lg:"space-around"}} ml={{lg:"32%",sm:"none",md:"20%"}} h={{sm:"50%",md:"57%",lg:"70%"}}>
                     <UnorderedList listStyleType="none">
                         <Flex justifyContent="space-around" alignItems={"center"}>
 
