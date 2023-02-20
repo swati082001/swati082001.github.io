@@ -65,7 +65,7 @@ const Navbar = () => {
                 <Box >
                 
                 {/* hamburger for small screen */}
-                <IconButton size={"md"} icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={"Navbar"} display={{ md: "none" }}
+                <IconButton size={"sm"} icon={isOpen ? <CloseIcon /> : <HamburgerIcon />} aria-label={"Navbar"} display={{ md: "none" }}
               backgroundColor="#1a1a1a" color="white" fontSize={{ base: "20px", sm: "30px" }} onClick={isOpen ? onClose : onOpen}
               mt="-3"/>
                 <Drawer isOpen={isOpen} placement='right' onClose={onClose} finalFocusRef={btnRef}>
