@@ -8,7 +8,7 @@ const Skills = () => {
     <div className={Styles.Skills} id="skills">
         <Box w="80%" margin={"auto"} p={7} h={{sm:"auto",md:"auto",lg:"auto"}} textAlign={{sm:"center",md:"center",lg:"initial"}}>
 
-        <Text textStyle="AboutHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Skills</Text>
+        <Text textStyle="AboutHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Skills & Tools</Text>
         <Text textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}}>Let's showcase some skills.</Text>
 
         <Fade cascade direction='left'>
