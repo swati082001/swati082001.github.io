@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 const About = () => {
   return (
     <div className={Styles.About} id="about">
-        <Box w={{base:"100%",sm:"50%",md:"80%",lg:"90%"}} margin={"auto"} h="auto" mt={{base:"-1px",sm:"0px",md:"-1px",lg:"0px"}} p="40px">
+        <Box w={{base:"100%",sm:"80%",md:"80%",lg:"90%"}} margin={"auto"} h="auto" mt={{base:"-1px",sm:"0px",md:"-1px",lg:"0px"}} p="40px">
         <Fade direction='left' cascade>
             <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-around" alignItems="center">
                 <Box w={{base:"85%",sm:"80%",md:"75%",lg:"75%"}} ml={{base:0,sm:0,md:"250px",lg:0}}>

@@ -3,7 +3,9 @@ import React from 'react'
 import Styles from "./projects.module.css";
 import logo from "./Nordstrom.png";
 import image from "./reliance.png";
-import logo2 from "./TRADEMART.png"
+import logo2 from "./TRADEMART.png";
+import image2 from "./bBlooms.png";
+import image3 from "./TravelSphere.png"
 import {Link} from "@chakra-ui/react";
 import { Fade } from "react-awesome-reveal";
 
@@ -15,6 +17,30 @@ const Projects = () => {
 
             <Text textStyle="AboutHead" mt={{base:"40px",sm:"40px",md:"40px",lg:"30px"}}>Build By Me !</Text>
             <Text>Each Project is Unique. Here are some of my works.</Text>
+
+            {/* bBlooms */}
+            <Fade direction='left' cascade>
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
+
+                 <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={image2} alt="" />
+                 <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
+                    <Text textStyle="AboutSubHead" mt={{sm:"10px",md:'10px',lg:'10px'}}>bBlooms</Text>
+                    <Text textStyle="AboutPara">bBlooms is an e-com website which is a floral and foods gift retailer and distribution company in the United States.bBlooms is a clone of 1800-flowers.com</Text>
+                    <Text textStyle="AboutPara">A Collaborative Project built by a team of 5 members executed in 5 days.</Text>
+
+                    <Text textStyle="AboutPara">TECH STACKS- React | Redux | Redux-Thunk | Chakra-UI | Node.js | Express | Mongoose | MongoAtlas </Text>
+
+                    <Text textStyle="AboutPara">Area Of Responsibility- Cart Section , Checkout section , Payment portal and Otp page. </Text>
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
+                    <Link href='https://bblooms.vercel.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"} >Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/bBlooms-1800Flowers-clone' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
+                    </Flex>
+                 </Box>
+
+                </Flex>
+            </Box>
+            </Fade>
 
            {/* NORDSTORM */}
            <Fade direction='left' cascade>
@@ -83,6 +109,32 @@ const Projects = () => {
                 </Flex>
             </Box>
             </Fade>
+
+            {/* TravelSphere */}
+            <Fade direction='left' cascade>
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
+
+                 <Image w={{sm:"100%",md:"100%",lg:"50%"}} src={image3} alt="" />
+                 <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
+                    <Text textStyle="AboutSubHead" mt={{sm:"10px",md:'10px',lg:'10px'}}>TravelSphere</Text>
+                    <Text textStyle="AboutPara">TravelSphere is a travel fare aggregator website and travel metasearch engine. It is a clone of Orbitz.com.</Text>
+                    <Text textStyle="AboutPara">A Collaborative Project built by a team of 5 members executed in 5 days.</Text>
+
+                    <Text textStyle="AboutPara">TECH STACKS- HTML | CSS | Javascript</Text>
+
+                    <Text textStyle="AboutPara">Area Of Responsibility- Cart Section , Checkout section , Payment portal and Otp page. </Text>
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
+                    <Link href='https://graceful-paprenjak-0954c1.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"} >Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/Travelsphere-Orbitz-Clone' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
+                    </Flex>
+                 </Box>
+
+                </Flex>
+            </Box>
+            </Fade>
+
+            
 
         </Box>
     </div>
