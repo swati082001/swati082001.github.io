@@ -12,7 +12,7 @@
   /* medium */
   @media all and (min-width:620px) and (max-width:1024px){
     .About{
-      width: 100%;
+      width: 100%; 
     }
   }
 
