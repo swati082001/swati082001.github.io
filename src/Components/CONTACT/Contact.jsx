@@ -12,7 +12,14 @@ const Contact = () => {
            
             <Flex>
 
-            <Box w="80%" margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px" >
+            <Box w="80%" margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px" display={"flex"} flexDirection={{base:"column",sm:"column", md:"column",lg:"row"}} justifyContent={"center"} alignItems={"center"}>
+
+            <Box  w={{base:"100%",sm:"100%",md:"100%",lg:"100%"}} >
+              <Image  borderRadius={"15px"} w={{base:"100%",sm:"100%",md:"100%",lg:"80%"}} src='https://visme.co/blog/wp-content/uploads/2020/02/header-1200.gif' alt=''/>
+            </Box>
+
+            <Box  w={{base:"100%",sm:"100%",md:"100%",lg:"60%"}}>
+
             <Text textStyle="AboutSubHead" mt={{sm:"40px",md:"40px",lg:"30px"}}>Contact Me</Text>
              <Text textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}}>Contact Number - +91 8018531080</Text>
              <Text textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}}>Email Id- swatisucharitamohanty1@gmail.com</Text>
@@ -23,11 +30,11 @@ const Contact = () => {
             
             <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
              </Flex>
-            
             </Box>
             
+            </Box>
 
-            
+           
             </Flex>
 
         
