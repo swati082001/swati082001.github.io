@@ -19,100 +19,103 @@ const Skills = () => {
           <Box p={7}>
           <Grid templateColumns={{base:"repeat(2,1fr)",sm:"repeat(3,1fr)",md:"repeat(3,1fr)",lg:"repeat(4,1fr)"}} gap={{base:"15px",sm:"15px",md:"15px",lg:"20px"}}>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
             {/* HTML 5 */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
           <Image w={{base:"60px",sm:"70px",md:"80px",lg:"100px"}}   mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/html-5.svg' alt='html5' />
           <Text textStyle="AboutPara" textAlign={"center"}> HTML 5 </Text>
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
             {/* CSS */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/css3.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> CSS </Text>
-          
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
             {/* JAVASCRIPT */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/javascript.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> JAVASCRIPT </Text>
           
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
             {/* REACT JS */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}} >
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/reactjs.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> REACT JS </Text>
-          
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+
             {/* REDUX */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/redux.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> REDUX </Text>
           
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
             {/* NODEJS */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://cdn4.iconfinder.com/data/icons/logos-3/456/nodejs-new-pantone-black-128.png' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> NODE JS </Text>
-          
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+             {/* EXPRESS JS */}
+             <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+            <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px"  src={img} alt='' />
+            <Text textStyle="AboutPara" textAlign={"center"}> EXPRESS JS </Text>
+            </Box>
+
             {/* MONGODB */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/mongodb.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> MONGO DB </Text>
           
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
             {/* TYPESCRIPT */}
-          <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://gayathry-portfolio.vercel.app/ts.png' alt='' />
-          <Text textStyle="AboutPara" textAlign={"center"}> TYPESCRIPT </Text>
-          
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+          <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://gayathry-portfolio.vercel.app/ts.png' alt=''/>
+          <Text textStyle="AboutPara" textAlign={"center"}> TYPESCRIPT </Text>         
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
-            {/* GIT */}
-          <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/git.svg' alt='' />
-          <Text textStyle="AboutPara" textAlign={"center"}> GIT </Text>
-          
-          </Box>
-
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
             {/* CHAKRA UI */}
+            <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px"  src='https://img.icons8.com/color/70/null/chakra-ui.png' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> CHAKRA UI </Text>
          
           </Box>
 
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
-            {/* EXPRESS JS */}
-          <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px"  src={img} alt='' />
-          <Text textStyle="AboutPara" textAlign={"center"}> EXPRESS JS </Text>
-          </Box>
-
-
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
-            {/* NPM */}
-          <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://akhtarfaizan20.github.io/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg' alt='npm' />
-          <Text textStyle="AboutPara" textAlign={"center"}> NPM </Text>
-          </Box>
-
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
-            {/* DATA AND ALGO */}
-          <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://akhtarfaizan20.github.io/static/media/database.24991eee32623f453b1c.png' alt='' />
-          <Text textStyle="AboutPara" textAlign={"center"}> DS & ALGO </Text>
-          </Box>
-
-          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
             {/* CYPRESS */}
+            <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
           <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://seekicon.com/free-icon-download/cypress_1.svg' alt='' />
           <Text textStyle="AboutPara" textAlign={"center"}> CYPRESS </Text>
           
           </Box>
+
+            {/* GIT */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+          <Image w={{base:"65px",sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://chiranjeev-thapliyal.vercel.app/svg/git.svg' alt='' />
+          <Text textStyle="AboutPara" textAlign={"center"}> GIT </Text>
+          
+          </Box>
+
+          
+
+         
+
+
+            {/* NPM */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://akhtarfaizan20.github.io/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg' alt='npm' />
+          <Text textStyle="AboutPara" textAlign={"center"}> NPM </Text>
+          </Box>
+
+            {/* DATA AND ALGO */}
+          <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
+          <Image w={{sm:"60px",md:"80px",lg:"100px"}}  mt="10px" src='https://akhtarfaizan20.github.io/static/media/database.24991eee32623f453b1c.png' alt='' />
+          <Text textStyle="AboutPara" textAlign={"center"}> DS & ALGO </Text>
+          </Box>
+
+          
 
           {/* POSTMAN */}
           <Box border={"1px solid white"} borderRadius="15px" display="flex" flexDirection="column" justifyContent="center" alignItems="center" _hover={{bgColor:"#b107ff",border:"none"}}>
