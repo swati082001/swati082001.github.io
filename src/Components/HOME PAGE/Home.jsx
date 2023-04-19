@@ -14,7 +14,8 @@ const Home = () => {
           <Flex direction={{base:"column-reverse",sm:"column-reverse",md:"column-reverse",lg:"row"}} justifyContent={{lg:"space-evenly",md:"center",sm:"center",base:"center"}}>
           <Box w={{base:"100%",sm:"95%",md:"95%",lg:"50%"}} textAlign={{base:"center",sm:"center",md:"center",lg:"initial"}} margin="auto" mt={"60px"} >
             <Text textStyle="AboutHead">Hii, I am Swati Mohanty,</Text>
-            <TypeAnimation
+            <Box display={{base:"none",sm:"none",md:"block",lg:"block"}}>
+            <TypeAnimation 
                 // Same String at the start will only be typed once, initially
               sequence={[
               'Full Stack Web Developer.',
@@ -30,6 +31,7 @@ const Home = () => {
               wrapper="span" // Animation will be rendered as a <span>
               repeat={Infinity} // Repeat this Animation Sequence infinitely
             />
+            </Box>
 
             <Text textStyle="AboutPara">A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using Javascript, React, Redux, and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.</Text>
             <br/>
