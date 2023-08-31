@@ -1,11 +1,12 @@
-import { Box ,Image,Text,Flex,Button} from '@chakra-ui/react';
+import { Box ,Image,Text,Flex,Button, UnorderedList, ListItem} from '@chakra-ui/react';
 import React from 'react'
 import Styles from "./projects.module.css";
 import logo from "./Nordstrom.png";
 import image from "./reliance.png";
 import logo2 from "./TRADEMART.png";
 import image2 from "./bBlooms.png";
-import image3 from "./TravelSphere.png"
+import image3 from "./TravelSphere.png";
+import second from "./second.png";
 import games from "./games.png"
 import {Link} from "@chakra-ui/react";
 import { Fade } from "react-awesome-reveal";
@@ -40,6 +41,40 @@ const Projects = () => {
                 </Flex>
             </Box>
             </Fade>
+
+             {/* spotify clone */}
+             <Fade direction='left' cascade>
+            <Box w={{base:"95%",sm:"90%",md:"90%",lg:"90%"}} margin={"auto"} p={5} mt={{base:"50px",sm:"50px",md:"50px",lg:"40px"}} h="auto" border="1px solid white" borderRadius="15px">
+                <Flex direction={{base:"column",sm:"column",md:"column",lg:"row"}} justifyContent="space-between" gap={{base:"10px"}}>
+
+                 <Image w={{sm:"100%",md:"100%",lg:"50%"}} m={{sm:"40px 40px 40px 0px",md:"40px 0px 40px 0px"}} src={second} alt="" />
+                 <Box w={{sm:"90%",md:'90%',lg:'45%'}}>
+                    <Text textStyle="AboutSubHead" mt={{sm:"10px",md:'10px',lg:'10px'}}>Spotify Clone</Text>
+                    <Text textStyle="AboutPara">Spotify Clone is Music Player UI App with GraphQL Integration.</Text>
+                    <Text textStyle="AboutPara">An Individual project created in 1 week.</Text>
+
+                    <Text textStyle="AboutPara">TECH STACKS- React | GraphQl </Text>
+
+                    <Text textStyle="AboutPara">
+                        Features - 
+                        <UnorderedList>
+                            <ListItem>GraphQl Data to list data.</ListItem>
+                            <ListItem>Page Responsiveness</ListItem>
+                            <ListItem>Change in the Background color according to the song.</ListItem>
+                            <ListItem>Music Control</ListItem>
+                            <ListItem>Controlling music via seeker</ListItem>
+                        </UnorderedList>
+                         </Text>
+                    <Flex justifyContent="space-around" direction={{base:"column",sm:"row",md:"row",lg:"row"}} gap={{base:"10px"}} mt="30px">
+                    <Link href='https://swati-minispotify.netlify.app/' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"} >Live Demo</Button></Link>
+                    <Link href='https://github.com/swati082001/Samespace' target="_blank"><Button bgColor="#2a2b2b" _hover={{color:"#2a2b2b", backgroundColor:"white"}} textDecoration={"none"}>Source Code</Button></Link>
+                    </Flex>
+                 </Box>
+
+                </Flex>
+            </Box>
+            </Fade>
+
 
             {/* bBlooms */}
             <Fade direction='left' cascade>
