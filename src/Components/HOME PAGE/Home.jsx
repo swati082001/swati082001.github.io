@@ -36,9 +36,9 @@ const Home = () => {
             <Text textStyle="AboutPara">A self-motivated, hard-working, and ambitious Web Developer with proficiency in MERN Stack. Developing websites using Javascript, React, Redux, and Chakra UI. Looking forward to working as an accountable and competent employee in an exciting Tech company.</Text>
             <br/>
             <Flex justifyContent={{base:"center",sm:"center",md:"center",lg:"initial"}}>
-            <a href='https://www.linkedin.com/in/swati-mohanty08/'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/linkedin-icon-256.png' alt='linked in logo' /></a>
+            <a href='https://www.linkedin.com/in/swati-mohanty08/'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} borderRadius="0" bg="#b107ff" src='https://cdn.iconscout.com/icon/free/png-512/free-linkedin-192-739517.png?f=webp&w=256' alt='linked in logo' /></a>
             
-            <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
+            <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="50%" bg="#b107ff" src='https://cdn.iconscout.com/icon/free/png-512/free-github-163-761603.png?f=webp&w=256' alt='github logo' /></a>
 
            <a href='https://drive.google.com/u/0/uc?id=1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL&export=download'  onClick={() => {
             window.open(

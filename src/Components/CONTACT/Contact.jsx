@@ -26,9 +26,9 @@ const Contact = () => {
 
              <Flex mt={6} justifyContent={{base:"space-around",sm:"space-around",md:"space-around",lg:"initial"}}>
 
-             <a href='https://www.linkedin.com/in/swati-mohanty08/'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/linkedin-icon-256.png' alt='linked in logo' /></a>
+             <a href='https://www.linkedin.com/in/swati-mohanty08/'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} borderRadius="0" bg="#b107ff" src='https://cdn.iconscout.com/icon/free/png-512/free-linkedin-192-739517.png?f=webp&w=256' alt='linked in logo' /></a>
             
-            <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="10px" bg="#b107ff" src='https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/github-icon-256.png' alt='linked in logo' /></a>
+            <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="50%" bg="#b107ff" src='https://cdn.iconscout.com/icon/free/png-512/free-github-163-761603.png?f=webp&w=256' alt='github logo' /></a>
              </Flex>
             </Box>
             
