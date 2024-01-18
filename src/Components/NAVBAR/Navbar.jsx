@@ -51,9 +51,9 @@ const Navbar = () => {
                             <ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}>CONTACTS</ListItem>
                         </Link>
 
-                        <a href='https://drive.google.com/u/0/uc?id=1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL&export=download'  onClick={() => {
+                        <a href='https://drive.google.com/uc?export=download&id=1qA1tFgMmggIQ_9vWHNLkdrOZH0wg36WM'  onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing",
+              "https://drive.google.com/file/d/1qA1tFgMmggIQ_9vWHNLkdrOZH0wg36WM/view?usp=sharing",
               "_blank"
             );
           }}><ListItem textStyle="Navbar" p={{sm:"8px",md:"8px",lg:"12px"}} _hover={{backgroundColor: "#b107ff",borderRadius:"10px",color:"white"}}><ChevronDownIcon/>RESUME</ListItem></a>

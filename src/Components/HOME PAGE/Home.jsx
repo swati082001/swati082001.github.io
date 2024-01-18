@@ -40,9 +40,9 @@ const Home = () => {
             
             <a href='https://github.com/swati082001'><Image w={{base:"30px",sm:"50px",md:"50px",lg:"50px"}} ml="35px" borderRadius="50%" bg="#b107ff" src='https://cdn.iconscout.com/icon/free/png-512/free-github-163-761603.png?f=webp&w=256' alt='github logo' /></a>
 
-           <a href='https://drive.google.com/u/0/uc?id=1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL&export=download'  onClick={() => {
+           <a href='https://drive.google.com/uc?export=download&id=1qA1tFgMmggIQ_9vWHNLkdrOZH0wg36WM'  onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1a-VF7VZId3xmzhow9Pi6LH4Fnz2tmzlL/view?usp=sharing",
+              "https://drive.google.com/file/d/1qA1tFgMmggIQ_9vWHNLkdrOZH0wg36WM/view?usp=sharing",
               "_blank"
             );
           }}> 
@@ -52,19 +52,6 @@ const Home = () => {
             </Flex>
 
           </Box>
-
-          
-          
-          {/* <Box width={{sm:"60%",md:"60%",lg:"28%"}}  margin="auto" bgColor="white"  borderRadius={{sm:"1100px 20px",md:"1100px 20px",lg:"1000px 15px"}} h={{sm:"400px",md:"400px",lg:"400px"}} mt="30px" >
-            <Box width={{sm:"80%",md:"80%",lg:"80%"}} bgColor="#b107ff"  borderRadius={{sm:"20px 1100px",md:"20px 1100px ",lg:"30px 1000px"}} h="400px" mt="30px">
-              <br/>
-              <br/>
-              <br/>
-            <Circle size='70%' bg="#0f0f0f" h="50%"  ml={{sm:"80px",md:"90px",lg:"100px"}} >
-               <Image ml="10px" borderRadius="1100px 1000px"   w="100%" src={logo} alt=""/>
-            </Circle>
-            </Box>
-          </Box> */}
 
           <Box width={{base:"40%",sm:"40%",md:"40%",lg:"28%"}}  margin="auto" bgColor="#b107ff" borderRadius={{base:"1050px 1050px",sm:"1000px 1000px",md:"1000px 1000px",lg:"1000px 1000px"}} mt="30px">
            <Image ml={{sm:"10px",md:"10px",lg:"10px",base:"6px"}} borderRadius={{base:"1110px 800px",sm:"1210px 1000px",md:"1160px 1000px",lg:"1160px 1000px"}}   w="100%" src={logo} alt=""/>
